@@ -1,0 +1,23 @@
+🗺️ The Roadmap (Phase 1)
+Consolidated Milestone: All challenges from Days 1–15 are implemented within a single comprehensive file in this repository to demonstrate the integration of core HTML and CSS concepts.
+
+Phase 1: Typography & Basic Styling (Days 1–5)
+Day 1-2: Initializing the "Hello World" environment and exploring basic color theory.
+
+Day 3-4: Working with semantic paragraph structures and multi-colored text spans.
+
+Day 5: Mastering heading hierarchy and font-size manipulation.
+
+Phase 2: Multimedia & Navigation (Days 6–10)
+Day 6-8: Implementing image attributes and combining visual media with descriptive text.
+
+Day 9: Refining typography with secondary heading styles.
+
+Day 10: Introduction to Hyperlinks (Anchors) for external navigation.
+
+Phase 3: Layout & Composition (Days 11–15)
+Day 11-13: Creating structured data lists and handling side-by-side image layouts.
+
+Day 14: Building a "Section" containing a heading, paragraph, and media.
+
+Day 15: A simple navigation bar (Home/About/Contact).
