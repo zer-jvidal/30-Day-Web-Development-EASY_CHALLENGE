@@ -1,0 +1,91 @@
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: gold;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.words1 {
+    color: gold;
+}
+
+.words2 {
+    color: red;
+}
+
+.words3 {
+    color: greenyellow;
+}
+
+.words4 {
+    color: white;
+}
+
+.words5 {
+    color: pink;
+}
+
+.philo {
+    font-size: 150px;
+    color:black
+}
+
+img {
+    height: 350px;
+    width: 200;
+}
+
+.fried {
+    height: 200px;
+    width: 350px;
+}
+
+.N {
+    font-size: 75px;
+    font-style: normal  ;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.W {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 200px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+figure {
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+}
+
+.beyond {
+    font-size: 100px;
+}
+
+.book {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.good {
+    color: maroon;
+    font-style: italic;
+    font-size: 20px;
+}
