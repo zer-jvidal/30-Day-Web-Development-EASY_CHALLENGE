@@ -1,0 +1,40 @@
+.recipe {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.title, h2 {
+    text-align: center;
+    font-size: 75px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.ing {
+    text-align: center;
+    font-size: 60px;
+}
+
+.list, .pro {
+    font-size: 40px;
+}
+
+.card {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    padding: 40px 60px;
+    width: 600px;
+    height: 1500px;
+    border-radius: 40px;
+    box-shadow: 7px 15px;
+}
