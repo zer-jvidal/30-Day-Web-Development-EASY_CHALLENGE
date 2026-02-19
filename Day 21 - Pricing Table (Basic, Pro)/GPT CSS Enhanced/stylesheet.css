@@ -1,0 +1,130 @@
+/* 🌤️ Overall Page Style */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* 🧱 Title Section */
+#title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#title h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#title p {
+    font-style: italic;
+    color: #555;
+}
+
+/* 💳 Subscription Layout */
+#subs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap; /* better for mobile */
+}
+
+/* 🪶 Individual Cards */
+#basic, #pro, #premium {
+    padding: 20px 40px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5px 1px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover lift effect for all cards */
+#basic:hover, #pro:hover, #premium:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* 🎨 Individual Background Colors */
+#basic {
+    background-color: #dbeafe; /* soft blue */
+}
+
+#pro {
+    background-color: #dcfce7; /* soft green */
+    scale: 1.05; /* highlight middle plan */
+    border: 3px solid #16a34a;
+}
+
+#premium {
+    background-color: #fef9c3; /* soft yellow */
+}
+
+/* 🧾 Text Styling */
+h2, h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+ul {
+    line-height: 30px;
+    padding-bottom: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✔️ ";
+}
+
+/* 🔘 Buttons */
+button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Plan-specific button colors */
+#basic button {
+    background-color: #3b82f6;
+}
+
+#basic button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+#pro button {
+    background-color: #22c55e;
+}
+
+#pro button:hover {
+    background-color: #16a34a;
+    transform: scale(1.05);
+}
+
+#premium button {
+    background-color: #f97316;
+}
+
+#premium button:hover {
+    background-color: #ea580c;
+    transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    #subs {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
