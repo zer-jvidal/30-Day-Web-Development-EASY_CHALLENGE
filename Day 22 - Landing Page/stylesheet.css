@@ -1,0 +1,41 @@
+body {
+    font-family: Inter;
+    
+}
+
+#card {
+    margin: 0 auto;
+    padding: 300px;
+}
+
+#hero {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: azure;
+    border-radius: 20px;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    background-color: skyblue;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
