@@ -1,0 +1,56 @@
+body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+#profile {
+    text-align: center;
+    font-family: "Montserrat", "Inter", sans-serif;
+    font-weight: 500;
+    padding-bottom: 75px;
+}
+
+#info {
+    display: flex;
+    gap: 50px; /* Adds space between image and text */
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me, .pic, .details {
+    padding: 50px;
+}
+
+.about-me, .details {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: linear-gradient(skyblue, grey); /* Gradient background. Gradients are not considered colors but rather image. So use background not background-color */
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Montserrat", "Inter", sans-serif;
+    font-weight: 500;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+    margin-top: 40px;
+}
