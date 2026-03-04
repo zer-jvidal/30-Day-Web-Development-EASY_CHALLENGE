@@ -1,0 +1,51 @@
+body {
+    background-color: #183442;
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid red; /* Line color and thickness */
+    margin: 20px 0;             /* Spacing above and below */
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+}
+
+button {
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
