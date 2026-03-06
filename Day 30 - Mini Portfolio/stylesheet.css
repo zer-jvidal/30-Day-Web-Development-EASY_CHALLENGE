@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #223696;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20rem;
+    padding: 0;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40rem;
+    width: 80%;
+    height: auto;
+}
+
+#resume {
+    background-color: #C7BFCD;
+    border: none;
+    border-radius: .25rem;
+    color: #374DAB;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: .30rem .50rem;
+    cursor: pointer;
+    align-self: flex-start; /* Align the button to the left */ /*It prevents the button to stretch out */
+    width: auto;
+    font-weight: bold;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Creates 2 columns*/
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.button-container button {
+    background-color: #C7BFCD;
+    border: none;
+    border-radius: .25rem;
+    color: #374DAB;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: .30rem .50rem;
+    cursor: pointer;
+    align-self: flex-start; /* Align the button to the left */ /*It prevents the button to stretch out */
+    width: auto;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+}
+
+#resume:hover, button:hover {
+    background-color: #A398AA;
+    color: black;
+    transition: ease-in-out .3s;
+}
